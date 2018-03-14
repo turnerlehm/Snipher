@@ -120,6 +120,7 @@ public class CommandExecutor
         else
         {
             System.out.println("*** Beginning default capture ***");
+            print = true;
         }
         capture();
     }

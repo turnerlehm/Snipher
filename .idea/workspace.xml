@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ca34f4-110d-45d5-a188-56364b4adfc8" name="Default" comment="Added more robust expression construction, cleaned parsing" />
+    <list default="true" id="e2ca34f4-110d-45d5-a188-56364b4adfc8" name="Default" comment="Added more robust expression construction, cleaned parsing">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CommandExecutor.java" afterPath="$PROJECT_DIR$/src/CommandExecutor.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,24 +55,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandExecutor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CommandExecutor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CommandExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2075">
-              <caret line="480" column="8" lean-forward="false" selection-start-line="480" selection-start-column="8" selection-end-line="480" selection-end-column="8" />
+            <state relative-caret-position="458">
+              <caret line="122" column="25" lean-forward="false" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Snipher.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Snipher.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -180,10 +172,10 @@
         <option value="$PROJECT_DIR$/src/flags/types/Flag.java" />
         <option value="$PROJECT_DIR$/src/flags/types/AbstractFlag.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/CommandExecutor.java" />
         <option value="$PROJECT_DIR$/src/Snipher.java" />
         <option value="$PROJECT_DIR$/src/flags/FlagParser.java" />
         <option value="$PROJECT_DIR$/Snipher.iml" />
+        <option value="$PROJECT_DIR$/src/CommandExecutor.java" />
       </list>
     </option>
   </component>
@@ -434,7 +426,7 @@
       <workItem from="1520836020581" duration="3889000" />
       <workItem from="1520839923725" duration="25869000" />
       <workItem from="1520911037990" duration="14797000" />
-      <workItem from="1520958792329" duration="6264000" />
+      <workItem from="1520958792329" duration="6940000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit of files">
       <created>1520907508793</created>
@@ -454,7 +446,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50819000" />
+    <option name="totallyTimeSpent" value="51495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -538,13 +530,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CommandExecutor.java</url>
-          <line>453</line>
+          <line>454</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/CommandExecutor.java</url>
-          <line>246</line>
+          <line>247</line>
           <properties class="CommandExecutor" method="setListeningPorts">
             <option name="EMULATED" value="true" />
           </properties>
@@ -552,7 +544,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/CommandExecutor.java</url>
-          <line>618</line>
+          <line>619</line>
           <properties class="CommandExecutor" method="buildExpression">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1054,21 +1046,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2075">
-          <caret line="480" column="8" lean-forward="false" selection-start-line="480" selection-start-column="8" selection-end-line="480" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Snipher.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="122" column="25" lean-forward="false" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
