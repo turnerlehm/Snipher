@@ -29,7 +29,7 @@ public class FlagParser
         List<AbstractFlag> flags = Collections.synchronizedList(new ArrayList<>());
         AbstractFlag f;
         FlagType flag;
-        for(int i = 1; i < tokens.length; i++)
+        for(int i = 0; i < tokens.length; i++)
         {
             flag = validFlag(tokens[i]);
             switch(flag)
@@ -129,7 +129,7 @@ public class FlagParser
 
     private String[] parseParameters(String flag)
     {
-        String params = flag.substring(flag.indexOf('='));
+        String params = flag.substring(flag.indexOf('=') + 1);
         return params.split(",");
     }
 
@@ -159,7 +159,7 @@ public class FlagParser
             return FlagType.MODE;
         else if(input.equals("-pr") || input.equals("--print"))
             return FlagType.PRINT;
-        else if(input.startsWith("-d=") || input.equals("--direction="))
+        else if(input.startsWith("-D=") || input.equals("--direction="))
             return FlagType.DIRECTION;
         else if(input.startsWith("-in=") || input.startsWith("--input="))
             return FlagType.IN_FILE;
